@@ -1,1 +1,5 @@
 # IN452902-LapTrinhFrontEnd
+# THÔNG TIN CÁ NHÂN
+# MSSV: 0024418977
+# HỌ VÀ TÊN: LÊ THỊ HUỲNH NHƯ
+# LỚP: ĐHCNTT24B-CS
