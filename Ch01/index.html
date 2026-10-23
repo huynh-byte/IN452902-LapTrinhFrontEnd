@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EduHub Web</title>
+    <!-- TODO(ch1-T5): thêm meta description, Open Graph (og:title, og:description, og:image, og:url) và favicon assets/logo.svg -->
+  </head>
+  <body>
+    <!-- TODO(ch1-T6) (challenge): thêm liên kết "Bỏ qua, đến nội dung chính" trỏ tới id của <main> -->
+    <a href="#main-content" class="skip-link">Bỏ qua, đến nội dung chính</a>
+
+    <!-- TODO(ch1-T1): header gồm logo (assets/logo.svg) và <nav> 4 liên kết:
+         Trang chủ, Sự kiện, Câu lạc bộ, Đăng ký thành viên -->
+    <header>
+      <a href="index.html">
+        <img src="assets/logo.svg" alt="Logo EduHub Web" width="100" height="100">
+      </a>
+      <nav aria-label="Menu chính">
+        <ul>
+          <li><a href="index.html">Trang chủ</a></li>
+          <li><a href="events.html">Sự kiện</a></li>
+          <li><a href="#cau_lac-bo">Câu lạc bộ</a></li>
+          <li><a href="register.html">Đăng ký thành viên</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main-content">
+      <h1>EduHub Web</h1>
+      <p>Cổng câu lạc bộ và sự kiện sinh viên Trường Đại học Đồng Tháp.</p>
+      
+      <!-- TODO(ch1-T1): section "Sự kiện sắp tới" với 3 <article> (lấy chữ ở content/noi-dung-mau.md) -->
+      <section id="su-kien-sap-toi">
+        <h2>Sự kiện sắp tới</h2>
+
+        <article>
+          <h3>Workshop: Làm website đầu tiên với HTML</h3>
+          <img src="assets/club-tin-hoc.svg" 
+          alt="Workshop: Làm website đầu tiên với HTML"
+          width="300" height="200">
+          <p>
+            <time datetime="2026-10-17T07:30">07:30, 11/10/2026</time>
+            &middot; Phòng máy B1.203 &middot; CLB Tin học
+          </p>
+          <p>Hai giờ thực hành: viết trang giới thiệu bản thân và đưa lên GitHub Pages.</p>
+        </article>
+
+        <article>
+          <h3>Ngày hội Hiến máu tình nguyện</h3>
+          <img src="assets/club-tinh-nguyen.svg" 
+          alt="Hiến máu tình nguyện"
+          width="300" height="200">
+          <p>
+            <time datetime="2026-10-24T07:00">07:00, thứ Bảy 24/10/2026</time>
+            &middot; Hội trường lớn &middot; CLB Tình nguyện
+          </p>
+          <p>Mỗi giọt máu cho đi, một cuộc đời ở lại. Có giấy chứng nhận và quà cho người tham gia</p>
+        </article>
+
+        <article>
+          <h3>English Speaking Night: Halloween</h3>
+          <img src="assets/club-tieng-anh.svg" 
+          alt="English Speaking Night: Halloween"
+          width="300" height="200">
+          <p>
+            <time datetime="2026-10-31T18:30">18:30, thứ Bảy 31/10/2026</time>
+            &middot; Sảnh nhà A1 &middot; CLB Tiếng Anh
+          </p>
+          <p>Trò chơi, hóa trang và luyện nói tiếng Anh cùng sinh viên các khoa.</p>
+        </article>
+
+      </section>
+      
+      <!-- TODO(ch1-T1): section "Câu lạc bộ" liệt kê 6 CLB -->
+        
+      <section id="cau_lac-bo">
+        <h2>Câu lạc bộ</h2>
+        <!-- Danh sách các CLB sẽ được thêm vào đây -->
+        <article>
+          <h3>CLB Tin học</h3>
+          <img src="assets/club-tin-hoc.svg" 
+          alt="Biểu tượng CLB Tin học"
+          width="300" height="200">
+          <p>Học lập trình, làm dự án nhỏ và luyện thi Olympic Tin học sinh viên.</p>
+        </article>
+
+        <article>
+          <h3>CLB Tình nguyện</h3>
+          <img src="assets/club-tinh-nguyen.svg" 
+          alt="Biểu tượng CLB Tình nguyện"
+          width="300" height="200">
+          <p>Hiến máu, Tiếp sức mùa thi, Mùa hè xanh và Xuân tình nguyện</p>
+        </article>
+
+        <article>
+          <h3>CLB Tiếng Anh</h3>
+          <img src="assets/club-tieng-anh.svg" 
+          alt="Biểu tượng CLB Tiếng Anh"
+          width="300" height="200">
+          <p>Sinh hoạt English Speaking Club hàng tuần, luyện thi chứng chỉ</p>
+        </article>
+
+        <article>
+          <h3>CLB Âm nhạc</h3>
+          <img src="assets/club-am-nhac.svg" 
+          alt="Biểu tượng CLB Âm nhạc"
+          width="300" height="200">
+          <p>Guitar, thanh nhạc, biểu diễn trong các đêm văn nghệ của trường.</p>
+        </article>
+
+        <article>
+          <h3>CLB Bóng đá</h3>
+          <img src="assets/club-bong-da.svg" 
+          alt="Biểu tượng CLB Bóng đá"
+          width="300" height="200">
+          <p>Tập luyện mỗi chiều thứ Tư, tổ chức giải bóng đá sinh viên hằng năm.</p>
+        </article>
+
+        <article>
+          <h3>CLB Kỹ năng mềm</h3>
+          <img src="assets/club-ky-nang-mem.svg" 
+          alt="Biểu tượng CLB Kỹ năng mềm"
+          width="300" height="200">
+          <p>Thuyết trình, làm việc nhóm, viết CV vầ chuẩn bị phỏng vấn xin việc.</p>
+        </article>
+      </section>
+
+      <!-- TODO(ch1-T1): section "Câu hỏi thường gặp" dùng ít nhất 3 <details>/<summary> -->
+        <section id="cau-hoi-thuong-gap">
+        <h2>Câu hỏi thường gặp</h2>
+        <details>
+          <summary>Ai được đăng ký thành viên EduHub?</summary>
+          <p>Tất cả sinh viên đang học tại Trường Đại học Đồng Tháp, chỉ cần mã số sinh viên và email.</p>
+        </details>
+        <details>
+          <summary>Tham gia sự kiện có mất phí không?</summary>
+          <p>Phần lớn sự kiện miễn phí. Sự kiện có phí sẽ ghi rõ ở trang chi tiết.</p>
+        </details>
+        <details>
+          <summary>Một sinh viên được tham gia mấy câu lạc bộ?</summary>
+          <p>Không giới hạn, nhưng nên chọn tối đa hai CLB để có thời gian sinh hoạt đều đặn.</p>
+        </details>
+
+    </main>
+    <footer>
+      <address>
+        Trường đại học đồng tháp, 783 Phạm Hữu Lầu, Cao Lãnh, Đồng Tháp <br>
+        Liên hệ: <a href="mailto:https://www.dthu.edu.vn/">https://www.dthu.edu.vn/</a>
+      </address>
+    </footer>
+    <!-- TODO(ch1-T1): footer có địa chỉ trường và email liên hệ -->
+
+    <!-- TODO(ch1-T2): tạo events.html — bảng lịch 8 sự kiện (caption, thead/tbody/tfoot, th scope, <time>) -->
+    <!-- TODO(ch1-T3): tạo event-detail.html — chi tiết "Workshop: Làm website đầu tiên với HTML" -->
+    <!-- TODO(ch1-T4): tạo register.html — form đăng ký thành viên, MSSV đúng 10 chữ số -->
+    <!-- TODO(ch1-T5): bật GitHub Pages, ghi link vào README.md -->
+  </body>
+</html>
