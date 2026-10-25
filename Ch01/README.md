@@ -1,4 +1,5 @@
 # EduHub Web — Ch01 (starter)
+🔗 Demo: https://huynh-byte.github.io/IN452902-LapTrinhFrontEnd/Ch01/
 
 Chương 1 môn **IN4529 — Lập trình Front End**. Em sẽ dựng 4 trang HTML cho **EduHub Web** — cổng
 câu lạc bộ (CLB) và sự kiện sinh viên Trường Đại học Đồng Tháp — rồi đưa lên Internet bằng GitHub Pages.
